@@ -1,0 +1,94 @@
+.hidden {
+    display: none;
+}
+.js-clock{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    font-size:80px;
+    color:black;
+    opacity:0.7;
+    transform:translate(-50%, -50%);
+}
+.quote{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    font-size:20px;
+    color:grey;
+    transform:translate(-50%, -50%);
+    text-align: center;
+}
+.login-form{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+}
+#name-input{
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom:3px solid black;
+    background-color: transparent;
+    width:200px;
+    height:50px;
+    font-size:20px;
+}
+#login-btn{
+    width:100px;
+    height:50px;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom:3px solid black;
+    background-color:white;
+    border-radius:5px;
+    opacity:0.7;
+    font-size:20px;
+    font-weight: bolder;
+}
+#todo-form{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    right: 50%;
+    transform:translate(-50%, -50%);
+}
+#todo-input{
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom:3px solid black;
+    background-color: transparent;
+    width:300px;
+    height:50px;
+    font-size:20px;
+    transform:translate(-50%, -50%);
+}
+#todo-list{
+    position: absolute;
+    top: 60%;
+    left:50%;
+    font-size:20px;
+    transform:translate(-50%);
+    color:black;
+}
+#weather{
+    display: inline-block;
+    margin:0 5px;
+    float:right;
+    color: black;
+    clear: both;
+}
+.login-info{
+    display: inline-block;
+    margin:0 5px;
+    float:right;
+    color: white;
+    font-size:20px;
+    color: black;
+}
+.todo-btn{
+    border-radius:20px;
+}
